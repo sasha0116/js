@@ -1,14 +1,22 @@
 "use strict";
 
 var min = prompt('Введите первое число ');
-var max = prompt('Введите второе число ');{
-    if (max<min){
-        alert("Введите число больше первого")
-    }
+if (isNaN(min)) {
+    alert('eror! Enter the number!')
+}
+var max = prompt('Введите второе число ');
+if (isNaN(max)) {
+    alert("error! Enter the number!")
+}
+
+if (+max < +min) {
+    alert("enter max>min")
+
 }
 
 for (var i = min; i <= max; i++) {
-    if (primeNum(i)) console.log(i);
+    if (primeNum(i))
+        console.log(i);
 }
 
 
@@ -20,3 +28,4 @@ function primeNum(num) {
     }
     return true;
 }
+
