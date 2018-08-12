@@ -1,0 +1,24 @@
+html,
+body{
+    background: linear-gradient(to bottom left	,#7FFFD4, #ffffff) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.field{
+    width: 35%;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    background: white;
+
+}
+
+
+textarea {
+    border: none;
+    width: 99%;
+    height: 98%;
+    font-size: 30px
+}
