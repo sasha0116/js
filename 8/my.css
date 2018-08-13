@@ -1,0 +1,206 @@
+.background {
+    width: 63%;
+    margin: 0 auto;
+    background: #282d3e url("img/Layer 41.png") no-repeat;
+    padding-top: 8.8%;
+    padding-bottom: 8%;
+
+}
+
+.all {
+    width: 600px;
+    box-shadow: 0px 23px 57px rgba(0, 0, 0, 0.4);
+    background-color: #212434;
+    margin: 0 auto;
+
+}
+
+.menu {
+    height: 114px;
+    background-color: #2b2f3f;
+
+}
+
+.all_view {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 40px;
+
+}
+
+.text {
+    display: none;
+}
+
+.info,
+.ratings,
+.where_bye {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 45px;
+    padding-top: 22px;
+    border-bottom: 2px solid transparent;
+}
+
+.info
+p {
+
+    font-size: 16px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ratings
+p {
+
+    font-size: 16px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.where_bye
+p {
+
+    font-size: 16px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.ratings:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.where_bye:hover {
+    border-bottom: 2px solid white;
+
+}
+
+/*image*/
+
+.image {
+    width: 35%;
+
+}
+
+.image .star {
+    margin-left: 40px;
+
+}
+
+.about {
+    width: 60%;
+}
+
+/*bye*/
+.how h1 {
+    font-size: 32px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    text-align: center;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.how h3 {
+    font-size: 12px;
+    width: 150px;
+    color: rgb(254, 220, 63);
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    text-align: left;;
+}
+
+/*button*/
+.but {
+    width: 164px;
+    height: 55px;
+    border-radius: 2px;
+    background-color: #13e18c;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-weight: bold;
+    float: right;
+
+}
+
+/*about*/
+.about {
+
+    margin-top: 20px;
+
+}
+
+.score {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.about p {
+    width: 309px;
+    height: 104px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+}
+
+.about h1 {
+    font-size: 32px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+
+}
+
+.about h2 {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(253, 253, 253);
+    font-family: "Lato";
+    margin-bottom: 40px;
+}
+
+.all_view_two,
+.all_view_three {
+    display: none;
+    padding-bottom: 50px;
+    padding-top: 40px;
+
+}
+
+.all_view_two p {
+    font-size: 14px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+    padding: 10px;
+}
+
+.all_view_three a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(183, 186, 205);
+    font-family: "Lato";
+    padding: 25px;
+
+}
