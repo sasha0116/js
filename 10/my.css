@@ -1,5 +1,6 @@
 .text {
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .text p {
@@ -10,6 +11,7 @@
     color: rgb(48, 48, 48);
     font-family: "Poppins";
     font-weight: bold;
+
 }
 
 .text h1 {
@@ -93,4 +95,17 @@
     margin-top: -15%;
     margin-left: 95%;
     z-index: 300;
+}
+
+.plus {
+    position: absolute;
+    margin-left: 72%;
+
+}
+
+.rectangle {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 13%;
+
 }
